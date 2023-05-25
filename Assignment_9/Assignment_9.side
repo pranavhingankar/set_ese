@@ -1,0 +1,123 @@
+{
+  "id": "317e8cba-671d-48d0-a339-208feedda509",
+  "version": "2.0",
+  "name": "Assignment_9",
+  "url": "http://10.10.16.15/submission/students.aspx",
+  "tests": [{
+    "id": "0a1a7cf6-9d37-4014-a872-8123e32621fc",
+    "name": "Untitled",
+    "commands": [{
+      "id": "964a3772-a701-4dc3-8dad-65e0e65b27c1",
+      "comment": "",
+      "command": "open",
+      "target": "http://10.10.16.15/submission/students.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36e81b6a-31dc-4f5a-989d-00380e9d7ba5",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(8) > .style4",
+      "targets": [
+        ["css=tr:nth-child(8) > .style4", "css:finder"],
+        ["xpath=//form[@id='form1']/div[3]/table/tbody/tr[8]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32aae562-dafb-4a3e-a2e0-7628f7423a92",
+      "comment": "",
+      "command": "click",
+      "target": "id=TextBox1",
+      "targets": [
+        ["id=TextBox1", "id"],
+        ["name=TextBox1", "name"],
+        ["css=#TextBox1", "css:finder"],
+        ["xpath=//input[@id='TextBox1']", "xpath:attributes"],
+        ["xpath=//div[@id='Panel1']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aeea99b-7aa6-4d02-b69d-bf133167a3be",
+      "comment": "",
+      "command": "type",
+      "target": "id=TextBox1",
+      "targets": [
+        ["id=TextBox1", "id"],
+        ["name=TextBox1", "name"],
+        ["css=#TextBox1", "css:finder"],
+        ["xpath=//input[@id='TextBox1']", "xpath:attributes"],
+        ["xpath=//div[@id='Panel1']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "2020CS00040"
+    }, {
+      "id": "6471d761-b706-4e10-99fb-5ce001a96c5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=TextBox2",
+      "targets": [
+        ["id=TextBox2", "id"],
+        ["name=TextBox2", "name"],
+        ["css=#TextBox2", "css:finder"],
+        ["xpath=//input[@id='TextBox2']", "xpath:attributes"],
+        ["xpath=//div[@id='Panel1']/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "2020BTECS00040"
+    }, {
+      "id": "e9452ced-6be2-4bdd-9483-283b10d63603",
+      "comment": "",
+      "command": "click",
+      "target": "id=Button1",
+      "targets": [
+        ["id=Button1", "id"],
+        ["name=Button1", "name"],
+        ["css=#Button1", "css:finder"],
+        ["xpath=//input[@id='Button1']", "xpath:attributes"],
+        ["xpath=//div[@id='Panel1']/table/tbody/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "017d0d2a-0200-42da-b5ed-9ba3e3803e3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Button1",
+      "targets": [
+        ["id=Button1", "id"],
+        ["name=ctl00$Button1", "name"],
+        ["css=#Button1", "css:finder"],
+        ["xpath=//input[@id='Button1']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/table/tbody/tr/td/table/tbody/tr/td[4]/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75fa9b00-0718-4de7-a279-d47fc811913f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "338ee904-ec10-4208-94a3-1e4cbfa038ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5953d0e3-da84-44a4-a2a7-61f815efeeac",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0a1a7cf6-9d37-4014-a872-8123e32621fc"]
+  }],
+  "urls": ["http://10.10.16.15/submission/students.aspx"],
+  "plugins": []
+}
